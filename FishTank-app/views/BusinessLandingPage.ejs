@@ -1,0 +1,29 @@
+<%- include ('partials/header'); -%>
+
+<form class="formBusiness" action="/BusinessPage" method="post">
+
+    <div class="float-containerTop">
+
+      <div class="float-child">
+        <button type="button" id="fundsraisedButton"class="btn btn-light">Amount raised</button>
+      </div>
+      
+      
+      <div class="float-child">
+        <p id="fundsraisedAmt"></p>
+      </div>
+
+    </div>
+    <div class="float-container">
+      <div class="float-child">
+        <button type="button" id="withdraw"class="btn btn-warning">Withdraw</button>
+      </div>
+
+      <div class="float-child">
+        <button type="button" id="endFunding"class="btn btn-danger">End Funding</button>
+      </div>
+    </div>
+</form>
+
+
+<%- include ('partials/footer'); -%>

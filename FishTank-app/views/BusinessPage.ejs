@@ -1,0 +1,35 @@
+<%- include ('partials/header'); -%>
+<form class="formBusiness" action="/BusinessPage" method="post">
+    <h1 class="tagBusiness">Great! Let's get you started.</h1>
+    <div class="form-group row">
+      <label for="businessB" class="col-sm-2 col-form-label">Name of your Business</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="businessB" placeholder="Example: Spotify" name="nameofB">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="businessAddr" class="col-sm-2 col-form-label">Address Id of your Business</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="businessAddr" placeholder="Example: 0x4fE8..." name="addrofB">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="industry" class="col-sm-2 col-form-label">Industry</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="industry" placeholder="Example: Food" name="nameofIndustry">
+      </div>
+    </div>
+    <h2 class="titleBusiness">We'll help you raise funds!</h2>
+    <div class="form-group row fundingBusiness">
+        <label for="fundingAmount" class="col-sm-2 col-form-label">Do you have a goal?</label>
+        <div class="col-sm-10">
+          <input type="text" id="fundAmt" class="form-control" id="fundingAmount" name="fundingAmt" placeholder="Example: $20000">
+        </div>
+      </div>
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button id="startFunding" type="submit" class="btn btn-primary">Let's Go!</button>
+      </div>
+    </div>
+  </form>
+<%- include ('partials/footer'); -%>

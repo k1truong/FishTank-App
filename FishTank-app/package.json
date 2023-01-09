@@ -1,0 +1,28 @@
+{
+  "name": "fishtank-app",
+  "version": "1.0.0",
+  "description": "Fishtank App",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k1truong/FishTank.git"
+  },
+  "author": "Kevin Truong, Aryansh Sharma, Sander Shi, Baibhav, Kevin Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k1truong/FishTank/issues"
+  },
+  "homepage": "https://github.com/k1truong/FishTank#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
